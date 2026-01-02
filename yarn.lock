@@ -2,40 +2,40 @@
 # yarn lockfile v1
 
 
-"@playwright/test@1.48.0":
+"@playwright/test@^1.48.0":
   version "1.48.0"
-  resolved "https://npm.dev.wixpress.com/api/npm/npm-repos/@playwright/test/-/test-1.48.0.tgz#4b81434a3ca75e2a6f82a645287784223a45434c"
+  resolved "https://npm.dev.wixpress.com/api/npm/npm-repos/@playwright/test/-/test-1.48.0.tgz"
   integrity sha512-W5lhqPUVPqhtc/ySvZI5Q8X2ztBOUgZ8LbAFy0JQgrXZs2xaILrUcNO3rQjwbLPfGK13+rZsDa1FpG+tqYkT5w==
   dependencies:
     playwright "1.48.0"
 
 "@types/node@^22.7.4":
-  version "22.19.3"
-  resolved "https://npm.dev.wixpress.com/api/npm/npm-repos/@types/node/-/node-22.19.3.tgz#8dfde7630d7a8528dc9b34db23d34f764467c02c"
-  integrity sha512-1N9SBnWYOJTrNZCdh/yJE+t910Y128BoyY+zBLWhL3r0TYzlTmFdXrPwHL9DyFZmlEXNQQolTZh3KHV31QDhyA==
+  version "22.7.4"
+  resolved "https://registry.npmjs.org/@types/node/-/node-22.7.4.tgz"
+  integrity sha512-y+NPi1rFzDs1NdQHHToqeiX2TIS79SWEAw9GYhkkx8bD0ChpfqC+n2j5OXOCpzfojBEBt6DnEnnG9MY0zk1XLg==
   dependencies:
-    undici-types "~6.21.0"
+    undici-types "~6.19.2"
 
 fsevents@2.3.2:
   version "2.3.2"
-  resolved "https://npm.dev.wixpress.com/api/npm/npm-repos/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
+  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
   integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
 playwright-core@1.48.0:
   version "1.48.0"
-  resolved "https://npm.dev.wixpress.com/api/npm/npm-repos/playwright-core/-/playwright-core-1.48.0.tgz#34d209dd4aba8fccd4a96116f1c4f7630f868722"
+  resolved "https://registry.npmjs.org/playwright-core/-/playwright-core-1.48.0.tgz"
   integrity sha512-RBvzjM9rdpP7UUFrQzRwR8L/xR4HyC1QXMzGYTbf1vjw25/ya9NRAVnXi/0fvFopjebvyPzsmoK58xxeEOaVvA==
 
 playwright@1.48.0:
   version "1.48.0"
-  resolved "https://npm.dev.wixpress.com/api/npm/npm-repos/playwright/-/playwright-1.48.0.tgz#00855d9a25f1991d422867f1c32af5d90f457b48"
+  resolved "https://registry.npmjs.org/playwright/-/playwright-1.48.0.tgz"
   integrity sha512-qPqFaMEHuY/ug8o0uteYJSRfMGFikhUysk8ZvAtfKmUK3kc/6oNl/y3EczF8OFGYIi/Ex2HspMfzYArk6+XQSA==
   dependencies:
     playwright-core "1.48.0"
   optionalDependencies:
     fsevents "2.3.2"
 
-undici-types@~6.21.0:
-  version "6.21.0"
-  resolved "https://npm.dev.wixpress.com/api/npm/npm-repos/undici-types/-/undici-types-6.21.0.tgz#691d00af3909be93a7faa13be61b3a5b50ef12cb"
-  integrity sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==
+undici-types@~6.19.2:
+  version "6.19.8"
+  resolved "https://registry.npmjs.org/undici-types/-/undici-types-6.19.8.tgz"
+  integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==

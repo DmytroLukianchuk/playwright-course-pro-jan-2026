@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test("user can submit contact us form", async ({ page }) => {
-  await page.goto("https://shopdemo-alex-hot.koyeb.app/contact");
+  await page.goto("/contact");
   await page.getByPlaceholder("You Full Name").click();
   await page.getByPlaceholder("You Full Name").fill("Test");
   await page.getByPlaceholder("Your Email Address").click();
@@ -20,7 +20,7 @@ test("user can submit contact us form", async ({ page }) => {
 test("user can NOT submit contact us form with email that was used before", async ({
   page,
 }) => {
-  await page.goto("https://shopdemo-alex-hot.koyeb.app/contact");
+  await page.goto("/contact");
   await page.getByPlaceholder("You Full Name").click();
   await page.getByPlaceholder("You Full Name").fill("Test");
   await page.getByPlaceholder("Your Email Address").click();

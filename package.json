@@ -7,10 +7,10 @@
     "builder": "playwright test"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dmytro Lukianchuk - dmytro.lukianchuk@gmail.com",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "1.48.0",
+    "@playwright/test": "^1.48.0",
     "@types/node": "^22.7.4"
   }
 }
